@@ -1,0 +1,34 @@
+#######################################
+# Syntax Coloring Map For Phuked
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+Phuked	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+CommandAtRunBarMSWIN	KEYWORD2
+CommandAtRunBarGnome	KEYWORD2
+CommandAtRunBarOSX		KEYWORD2
+CommandAtRunBarOSX		KEYWORD2
+ShrinkCurWin			KEYWORD2
+ShrinkCurWinMSWIN		KEYWORD2
+ShrinkCurWinGnome		KEYWORD2
+PressAndRelease			KEYWORD2
+ShowDiag				KEYWORD2
+ledkeys					KEYWORD2
+IsNumbOn				KEYWORD2
+IsCapsOn				KEYWORD2
+IsScrlOn				KEYWORD2
+PhotoRead				KEYWORD2
+OldPhotoRead			KEYWORD2
+DIPOptions				KEYWORD2
+#######################################
+# Constants (LITERAL1)
+#######################################
+
