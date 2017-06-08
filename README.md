@@ -7,5 +7,5 @@ Based on Irongeek's PHUKD Library ver 0.4( http://www.irongeek.com/i.php?page=se
 - Uncompress zip file in Arduino/libraries/ directory
 
 # TO DO
-- Keyboard layout support (on working progress)
+- Keyboard layout support (now only EN_US is supported, on working progress)
 - Documentation (some day...)
