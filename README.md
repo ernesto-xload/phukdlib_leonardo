@@ -26,19 +26,21 @@ There are some demo sketches in the examples folder to help illustrate how libra
 * _ShrinkCurWinOSX()_ : Shrinks the active window to help hide it in OS X.
 * _PressAndRelease(char Key, int KeyCount)_ : This function simplifies the pressing and releasing of a key. You can also specify how many times to hit the key.
 
+Other languages
+===============
+By default Arduino Keyboard library only support en_us kayboard layout, you can download an improved Keyboard library [here](https://github.com/ernesto-xload/arduino_keyboardlib)
 
 Version History
 ===============
 ```
 (Date format: DD/MM/YYYY)
-* 14/6/2017 Readme.md changes
+* 14/6/2017 Readme.md changes and included "Other languages" section
 * 8/6/2017 First commit
 
 ```
 
 TO DO
 =====
-- Keyboard layout support (now only EN_US is supported, on working progress)
 - Documentation, wiki ... (some day...)
 
 
