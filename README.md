@@ -8,10 +8,6 @@ Download and installation
 - Click "Clone or download" -> "Download ZIP"
 - Unzip downloaded file in Arduino/libraries/ directory
 
-Contact
-=======
-Open an issue, ask me on twitter to [@ernesto_xload](http://www.twitter.com/ernesto_xload/) or visit www.sanchezpano.info
-
 Use
 ===
 Add this include line to your sketch:
@@ -44,3 +40,8 @@ TO DO
 =====
 - Keyboard layout support (now only EN_US is supported, on working progress)
 - Documentation, wiki ... (some day...)
+
+
+Contact
+=======
+Open an issue, ask me on twitter to [@ernesto_xload](http://www.twitter.com/ernesto_xload/) or visit www.sanchezpano.info
