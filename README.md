@@ -1,7 +1,9 @@
-Arduino Leonardo compatible PHUKD library
+Arduino Leonardo/Micro compatible PHUKD library
 =========================================
  
 Based on Irongeek's PHUKD (Programmable HID USB Keystroke Dongle) Library ver 0.4( http://www.irongeek.com/i.php?page=security/programmable-hid-usb-keystroke-dongle )
+
+__NOTE:__ Should work fine on Arduino Micro but I don't tested it.
 
 Download and installation
 =========================
