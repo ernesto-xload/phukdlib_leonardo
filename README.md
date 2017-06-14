@@ -15,8 +15,8 @@ Open an issue ask on twitter to @ernesto_xload or visit www.sanchezpano.info
 Version History
 ===============
 ```
-6/14/2017 Minor Readme.md changes
-6/8/2017 First commit
+* 6/14/2017 Minor Readme.md changes
+* 6/8/2017 First commit
 
 ```
 
