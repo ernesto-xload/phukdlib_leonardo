@@ -13,6 +13,11 @@ Phuked	KEYWORD1
 #######################################
 
 CommandAtRunBarMSWIN	KEYWORD2
+RunProgramAdminMSWIN	KEYWORD2
+MinimizeWindowMSWIN	KEYWORD2
+CommandOpenSearchMSWIN	KEYWORD2
+BlockSessionMSWIN	KEYWORD2
+CloseProgramsMSWIN	KEYWORD2
 CommandAtRunBarGnome	KEYWORD2
 CommandAtRunBarOSX		KEYWORD2
 CommandAtRunBarOSX		KEYWORD2

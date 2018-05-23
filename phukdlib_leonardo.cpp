@@ -1,28 +1,3 @@
-/*
- *  phukdlib for Arduino Leonardo
- *
- *  Based on Irongeek's PHUKD Library ver 0.4
- *
- *  http://sanchezpano.info
- *
- *  Version:		0.1
- *  Design:		Ernesto Sanchez
- *  Implementation:	Ernesto Sanchez
- *
- * This program is free software; you can redistribute it and/or
- * modify it under the terms of the GNU General Public License
- * as published by the Free Software Foundation; either version 2
- * of the License, or (at your option) any later version.
- *
- * This program is distributed in the hope that it will be useful,
- * but WITHOUT ANY WARRANTY; without even the implied warranty of
- * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
- * GNU General Public License for more details.
- *
- * You should have received a copy of the GNU General Public License
- * along with this program; if not, write to the Free Software
- * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
- */
 
 #include "Arduino.h"
 #include "Keyboard.h"
@@ -39,6 +14,71 @@ void CommandAtRunBarMSWIN(char *SomeCommand){
   delay(1500);
   Keyboard.print(SomeCommand);
   Keyboard.press(KEY_RETURN);
+  Keyboard.releaseAll();
+}
+
+/********************************************************************
+ * Run the program with admin privileges. -Joel Serna Moreno
+ ********************************************************************/
+void RunProgramAdminMSWIN(char *SomeCommand){
+  Keyboard.press(KEY_LEFT_GUI);
+  delay(100);
+  Keyboard.releaseAll();
+  delay(2000);
+  Keyboard.print(SomeCommand);
+  delay(3000);
+  Keyboard.press(KEY_LEFT_CTRL);
+  Keyboard.press(KEY_LEFT_SHIFT);
+  Keyboard.press(KEY_RETURN);
+  delay(100);
+  Keyboard.releaseAll();
+  delay(4000);
+  Keyboard.press(KEY_LEFT_ARROW);
+  delay(100);
+  Keyboard.releaseAll();
+  delay(2000);
+  Keyboard.press(KEY_RETURN);
+  delay(100);
+  Keyboard.releaseAll();
+}
+
+/********************************************************************
+ * Minimize open windows. -Joel Serna Moreno
+ ********************************************************************/
+void MinimizeWindowMSWIN(){
+  Keyboard.press(KEY_LEFT_GUI);
+  Keyboard.press('d');
+  delay(100);
+  Keyboard.release('d');
+}
+
+/********************************************************************
+ * Open the search box. -Joel Serna Moreno
+ ********************************************************************/
+void CommandOpenSearchMSWIN(){
+  Keyboard.press(KEY_LEFT_GUI);
+  Keyboard.press('s');
+  delay(100);
+  Keyboard.releaseAll();
+}
+
+/********************************************************************
+ * Block active sessions. -Joel Serna Moreno
+ ********************************************************************/
+void BlockSessionMSWIN(){
+  Keyboard.press(KEY_LEFT_GUI);
+  Keyboard.press('l');
+  delay(100);
+  Keyboard.releaseAll();
+}
+
+/********************************************************************
+ * Close active program. -Joel Serna Moreno
+ ********************************************************************/
+void CloseProgramsMSWIN(){
+  Keyboard.press(KEY_LEFT_ALT);
+  Keyboard.press(KEY_F4);
+  delay(100);
   Keyboard.releaseAll();
 }
 
